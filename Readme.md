@@ -20,6 +20,6 @@ On your components that call ajax.
 //to show
 this.$loader.show();
 //to hide
-this.$loader.show();
+this.$loader.hide();
 
 ```
