@@ -1,6 +1,6 @@
 {
   "name": "vue-loading-ajax-nprogress",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "Add a Nprogress to ajax calls",
   "main": "Loading.vue",
   "scripts": {
