@@ -1,8 +1,6 @@
 <script>
     import NProgress from 'nprogress';
-    const install = (VueInstance) =
-    >
-    {
+    const install = (VueInstance) => {
         const $loader = {
             show() {
                 NProgress.start();
@@ -13,8 +11,7 @@
         };
 
         VueInstance.prototype.$loader = $loader;
-    }
-    ;
+    } ;
 
     export default {install};
 </script>
